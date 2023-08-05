@@ -1,0 +1,79 @@
+.container{
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Calculator{
+    background-color: gray;
+    border-radius: 20%;
+    width: 431.99px;
+    
+}
+.buttons_side{
+    background-color: gray;
+    margin-top: 1ch;
+    border-radius: 1%;
+   
+}
+form .screen{
+    background-color: rgb(52, 52, 52);
+    height: 20vh;
+    font-size:45px;
+    text-align: right;
+    box-shadow: none;
+    border-radius: 10px;
+    width: 100%;
+    color: white;    
+    max-width: 431.99px;
+    
+    
+
+}
+.buttons_field{
+    display: flex;
+    width: 100%;
+}
+form .orange_button{
+    background-color: orangered;
+    font-size: large;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 20%;
+    border-width: 0.1px;
+    height: 10ch;
+    width: 10ch;
+    margin: 1mm;
+    
+ 
+
+}
+.normal_button{
+    background-color:rgb(69, 69, 69);
+    font-size: large;
+    height: 10ch;
+    width: 10ch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    border-width: 0.1px;
+    color: white;
+    margin: 1mm;
+  
+}
+.equal {
+    flex: 1;
+    background-color: orangered;
+    font-size: large;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 20px;
+    border-width: 0.1px;
+    height: 10ch;
+    width: 10ch;
+    margin: 1mm;
+}
